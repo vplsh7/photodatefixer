@@ -10,6 +10,8 @@ It scans a chosen folder (non-recursive), compares timestamps against expected d
 The app displays thumbnails, supports drag-and-drop folders, and works entirely offline.  
 Designed for photographers, archivists, and anyone who has inherited messy photo libraries.
 
+![Main Window](/images/main.png)
+
 ---
 
 ## ✨ Features
@@ -59,6 +61,8 @@ You can apply a corrected timestamp to selected files:
 ---
 
 ## 🖱️ Usage
+
+![Main Window](/images/edit.png)
 
 1. Launch the app  
 2. Drag a folder onto the window (or click *Browse*)  
