@@ -91,3 +91,29 @@ Install dependencies:
 
 ```bash
 pip install PySide6 Pillow piexif pyinstaller
+
+To run:
+
+```bash
+python photo_date_fixer_portable.py
+
+To build portable EXE:
+
+```bash
+python -m PyInstaller --noconfirm --onefile --windowed photo_date_fixer_portable.py
+
+Or with the icon included:
+
+```bash
+python -m PyInstaller --noconfirm --onefile --windowed `
+  --add-data "\path\to\icon.ico;." `
+  --icon "\path\to\icon.ico" `
+  photo_date_fixer_portable.py
+
+🧪 After building:
+
+Your EXE will be located in:
+
+```bash
+dist\photo_date_fixer_portable.exe
+
